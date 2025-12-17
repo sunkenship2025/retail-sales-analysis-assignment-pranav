@@ -1,0 +1,72 @@
+2025-12-17 11:48:46,679 [INFO] Loading table 'branches' from database.
+2025-12-17 11:48:46,679 [INFO] Loaded 8 records from table 'branches'.
+2025-12-17 11:48:46,679 [INFO] Loading table 'articles' from database.
+2025-12-17 11:48:46,679 [INFO] Loaded 15 records from table 'articles'.
+2025-12-17 11:48:46,686 [INFO] Loading table 'sales' from database.
+2025-12-17 11:48:46,688 [INFO] Loaded 150 records from table 'sales'.
+2025-12-17 11:48:46,738 [INFO] Merging sales with articles.
+2025-12-17 11:48:46,794 [INFO] 
+All business metrics saved to database successfully!
+2025-12-17 11:51:22,802 [INFO] Loading table 'branches' from database.
+2025-12-17 11:51:22,802 [INFO] Loaded 8 records from table 'branches'.
+2025-12-17 11:51:22,802 [INFO] Loading table 'articles' from database.
+2025-12-17 11:51:22,812 [INFO] Loaded 15 records from table 'articles'.
+2025-12-17 11:51:22,812 [INFO] Loading table 'sales' from database.
+2025-12-17 11:51:22,815 [INFO] Loaded 150 records from table 'sales'.
+2025-12-17 11:51:22,867 [INFO] Merging sales with articles.
+2025-12-17 11:51:22,930 [INFO] 
+All business metrics saved to database successfully!
+2025-12-17 11:53:18,467 [INFO] Loading table 'branches' from database.
+2025-12-17 11:53:18,467 [INFO] Loaded 8 records from table 'branches'.
+2025-12-17 11:53:18,467 [INFO] Loading table 'articles' from database.
+2025-12-17 11:53:18,467 [INFO] Loaded 15 records from table 'articles'.
+2025-12-17 11:53:18,467 [INFO] Loading table 'sales' from database.
+2025-12-17 11:53:18,482 [INFO] Loaded 150 records from table 'sales'.
+2025-12-17 11:53:18,532 [INFO] Merging sales with articles.
+2025-12-17 11:53:18,537 [INFO] Branch Sales:
+branch_id
+101     9855.58
+102    17653.24
+103    10626.49
+104    15160.27
+105     9815.34
+106    13687.42
+107    10931.51
+108     6984.56
+Name: total_amount, dtype: float64
+2025-12-17 11:53:18,537 [INFO] Top Articles:
+article_name
+Tablet 10"             50
+4K Monitor             41
+Laptop Pro             40
+Mechanical Keyboard    40
+Bluetooth Speaker      37
+External SSD 1TB       33
+Gaming Headphones      30
+Wireless Mouse         28
+HD Webcam              25
+Power Bank             24
+Fast Charger           23
+HDMI Cable             23
+Smartphone Case        23
+USB-C Cable            22
+LED Desk Lamp          20
+Name: quantity, dtype: int64
+2025-12-17 11:53:18,537 [INFO] Monthly Revenue:
+year  month
+2025  6         9354.51
+      7        17815.17
+      8        11031.23
+      9        13868.38
+      10       12647.41
+      11       14788.14
+      12       15209.57
+Name: total_amount, dtype: float64
+2025-12-17 11:53:18,537 [INFO] Category Revenue:
+category
+Accessories    11186.87
+Electronics    82607.74
+Furniture        919.80
+Name: total_amount, dtype: float64
+2025-12-17 11:53:18,591 [INFO] 
+All business metrics saved to database successfully!
